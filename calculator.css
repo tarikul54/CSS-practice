@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+}
+.cal-total{
+    margin: 0 auto;
+    max-width: 350px;
+    margin-top: 10px;
+    text-align: center;
+    box-shadow: 0px 4px 8px 0px green ;
+    transition: .3s;
+    font-size: 0;
+}
+.cal-total:hover{
+    margin: 0 auto;
+    max-width: 350px;
+    margin-top: 10px;
+    text-align: center;
+    box-shadow: 0px 16px 32px 0px green ;
+    transition: .3s;
+}
+#result{
+    width: 345px;
+    height: 100px;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: right;
+    padding-right: 0 10px;
+    letter-spacing: 3px;
+}
+.cal-button{
+    width: 100%;
+}
+.buto{
+    height: 70px;
+    width: 87px;
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+    background-color:maroon;
+    padding: 0 4px;
+}
+.buto:hover{
+    background-color: chocolate;
+}
+.buto-4{
+    height: 70px;
+    width: 87px;
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+    background-color: #5f4bb6;
+    padding:  0 4px;
+}
+.buto-4:hover{
+    background-color: chocolate;
+}
