@@ -1,0 +1,26 @@
+.grid-container{
+    display: grid;
+    border: 3px solid yellow;
+    box-shadow:  5px 5px 5px orange;
+    grid-template-areas: 
+    'header header header header header header'
+    'manu main main main area area'
+    'manu footer footer footer footer footer'
+    ;}
+.grid-container >div{
+    background-color: crimson;
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 20px solid;
+    color: gold;
+    border: 3px solid white;
+}
+.grid-container > div:hover{
+    background-color: salmon;
+    box-shadow: 5px 10px 5px green;
+}
+.item1{grid-area:  header;}
+.item2{grid-area: manu;}
+.item3{ grid-area: main;}
+.item4{ grid-area: area;}
+.item5{ grid-area: footer;}
